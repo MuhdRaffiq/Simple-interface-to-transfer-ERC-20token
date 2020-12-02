@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exchanging PhoToken</title>
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+    <h1>BODO Token DAPP</h1>
+
+  <hr>
+
+  <br>
+    <h1>Exchange token</h1>
+    <br><label for="fromWallet">Wallet address from:</label><input type="text" id="fromWallet"></input>
+    <br><label for="toWallet">Wallet address send:</label><input type="text" id="toWallet"></input>
+    <br><label for="ammountToken">amount to send:</label><input type="number" id="ammountToken"></input>
+    <br><br><button id="transferFrom" onclick="App.transferFrom()">Send Now</button>
+    <br><br>
+    <br>
+
+    <span id="status"></span>
+
+    <br>
+    <script src="index.js"></script>
+  </body>
+</html>
